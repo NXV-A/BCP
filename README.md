@@ -1,2 +1,0 @@
-# BCP
-BCP Texture pack
