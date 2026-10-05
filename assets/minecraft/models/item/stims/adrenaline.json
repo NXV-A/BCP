@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/potion_base",
+  "textures": {
+    "1": "item/stim_adrenaline"
+  }
+}
