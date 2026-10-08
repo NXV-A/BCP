@@ -6,45 +6,8 @@
     "cases": [
       {
         "when": [
-          "minecraft:healing"
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/stims/propital"
-        }
-      },
-      {
-        "when": [
+          "minecraft:healing",
           "minecraft:strong_healing"
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/stims/sj9"
-        }
-      },
-      {
-        "when": [
-          "minecraft:regeneration",
-          "minecraft:long_regeneration"
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/stims/perfotoran"
-        }
-      },
-      {
-        "when": [
-          "minecraft:strong_regeneration"
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/stims/sj12"
-        }
-      },
-      {
-        "when": [
-          "minecraft:swiftness",
-          "minecraft:long_swiftness"
         ],
         "model": {
           "type": "minecraft:model",
@@ -53,12 +16,24 @@
       },
       {
         "when": [
-          "minecraft:strong_swiftness",
-          "minecraft:wind_charged"
+          "minecraft:regeneration",
+          "minecraft:long_regeneration",
+          "minecraft:strong_regeneration"
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/stims/adrenaline"
+          "model": "minecraft:item/stims/propital"
+        }
+      },
+      {
+        "when": [
+          "minecraft:swiftness",
+          "minecraft:long_swiftness",
+          "minecraft:strong_swiftness"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/stims/sj6"
         }
       },
       {
@@ -69,7 +44,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/stims/sj6"
+          "model": "minecraft:item/stims/mule"
         }
       },
       {
@@ -85,32 +60,12 @@
       },
       {
         "when": [
-          "minecraft:fire_resistance",
-          "minecraft:long_fire_resistance"
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/stims/meldonin"
-        }
-      },
-      {
-        "when": [
-          "minecraft:water_breathing",
-          "minecraft:long_water_breathing"
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/stims/l1"
-        }
-      },
-      {
-        "when": [
           "minecraft:night_vision",
           "minecraft:long_night_vision"
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/stims/ahf1-m"
+          "model": "minecraft:item/stims/3-b-tg"
         }
       },
       {
@@ -120,17 +75,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/stims/obdolbos-2"
-        }
-      },
-      {
-        "when": [
-          "minecraft:slow_falling",
-          "minecraft:long_slow_falling"
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/stims/3-b-tg"
+          "model": "minecraft:item/stims/sj9"
         }
       },
       {
@@ -141,7 +86,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/stims/mule"
+          "model": "minecraft:item/stims/obdolbos-2"
         }
       },
       {
@@ -150,66 +95,29 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/stims/obdolbos"
-        }
-      },
-      {
-        "when": [
-          "minecraft:harming",
-          "minecraft:strong_harming"
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/stims/p22"
-        }
-      },
-      {
-        "when": [
-          "minecraft:poison",
-          "minecraft:long_poison",
-          "minecraft:strong_poison",
-          "minecraft:infested"
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/stims/trimadol"
-        }
-      },
-      {
-        "when": [
-          "minecraft:slowness",
-          "minecraft:long_slowness",
-          "minecraft:strong_slowness"
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/stims/morphine"
+          "model": "minecraft:item/stims/2a2-btg"
         }
       },
       {
         "when": [
           "minecraft:weakness",
-          "minecraft:long_weakness",
-          "minecraft:weaving"
+          "minecraft:long_weakness"
         ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/stims/xtg-12"
         }
-      },
-      {
-        "when": [
-          "minecraft:oozing"
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/stims/zagustin"
-        }
       }
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "minecraft:item/potion_base"
+      "model": "minecraft:item/vanilla_potion",
+      "tints": [
+        {
+          "type": "minecraft:potion",
+          "default": -13083194
+        }
+      ]
     }
   }
 }

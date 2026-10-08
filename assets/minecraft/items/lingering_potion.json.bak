@@ -64,12 +64,20 @@
       {
         "when": [
           "minecraft:leaping",
-          "minecraft:long_leaping",
-          "minecraft:strong_leaping"
+          "minecraft:long_leaping"
         ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/stims/sj6"
+        }
+      },
+      {
+        "when": [
+          "minecraft:strong_leaping"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/stims/sj15"
         }
       },
       {
@@ -120,7 +128,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/stims/obdolbos-2"
+          "model": "minecraft:item/stims/obdolbos2"
         }
       },
       {
@@ -178,12 +186,20 @@
       {
         "when": [
           "minecraft:slowness",
-          "minecraft:long_slowness",
+          "minecraft:long_slowness"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/stims/pnb"
+        }
+      },
+      {
+        "when": [
           "minecraft:strong_slowness"
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/stims/morphine"
+          "model": "minecraft:item/stims/2a2-btg"
         }
       },
       {
@@ -194,7 +210,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/stims/xtg-12"
+          "model": "minecraft:item/stims/xtg"
         }
       },
       {
@@ -209,7 +225,13 @@
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "minecraft:item/potion_base"
+      "model": "minecraft:item/vanilla_lingering_potion",
+      "tints": [
+        {
+          "type": "minecraft:potion",
+          "default": -13083194
+        }
+      ]
     }
   }
 }
